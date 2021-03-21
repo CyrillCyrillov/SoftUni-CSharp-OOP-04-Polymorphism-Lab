@@ -59,7 +59,7 @@ namespace Shapes
 
         public override string Draw()
         {
-            return base.Draw() + "one rectangle";
+            return base.Draw() + this.GetType().Name;
         }
 
     }
